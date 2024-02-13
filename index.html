@@ -11,15 +11,21 @@
         .Titulo {
             color: rgb(255, 159, 80);
         }
+        .Titulo:hover{
+            color:#4cd137
+        }
+        .Titulo{
+            cursor:pointer
+        }
     </style>
 </head>
 <body> 
     <h1 class="Titulo">Formulario</h1>
     <img src="img/user.png" alt="Imagen de usuario">
     <form name="Inicio-sesion">
-        <label for="username">Username</label>
+        <label style="background-color: #4cd137; padding: 10px 20px; border-radius: 5px;" for="username">Username</label>
         <input type="text" name="" id="username">
-        <label for="password">Password</label>
+        <label style="background-color: #e67e22; padding: 10px 20px; border-radius: 5px;" for="password">Password</label>
         <input type="password">
         <input type="submit" value="Login">
         <input type="checkbox" name="remember-me" id="remember-me"><label for="remember-me">Remember me</label>
